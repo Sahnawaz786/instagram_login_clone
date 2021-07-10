@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="/images/instalogo.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <title>Instagram</title>
+    <style>
+      .phone_image img {
+        float: left;
+        /* top: 26px; */
+        width: 425px;
+        text-align: center;
+        /* position: relative; */
+        /* left: 249px; */
+        margin-left: 243px;
+      }
+
+      .content img {
+        float: left;
+        width: 223px;
+        margin-left: -283px;
+        margin-top: 95px;
+      }
+      .login {
+        border: 1px solid lightblue;
+        float: right;
+        width: 328px;
+        height: 380px;
+        margin-top: 38px;
+        margin-right: 337px;
+      }
+      .login img {
+        width: 177px;
+        text-align: center;
+        padding-top: 16px;
+        padding-left: 62px;
+      }
+      #text {
+        border: 1px solid lightblue;
+        width: 260px;
+        margin-top: 24px;
+        outline: 0;
+        padding-left: 9px;
+        height: 31px;
+        margin-left: 30px;
+      }
+
+      #text2 {
+        width: 260px;
+        border: 1px solid lightblue;
+        height: 31px;
+        outline: 0;
+        padding-left: 9px;
+        margin-top: 7px;
+        margin-left: 30px;
+      }
+
+      .login button {
+        width: 275px;
+        height: 31px;
+        margin-top: 15px;
+        color: white;
+        border-radius: 4px;
+        font-size: 15px;
+        text-align: center;
+        border: 0;
+        font-weight: bolder;
+        background: lightblue;
+        margin-left: 30px;
+      }
+
+      .login button:hover {
+        background-color: #166fe5;
+        cursor: pointer;
+      }
+      hr {
+        margin-top: 33px;
+        width: 298px;
+        color: lightblue;
+      }
+
+      #fb_image {
+        width: 20px;
+        float: left;
+        margin-top: 7px;
+      }
+      #fb {
+        font-size: 16px;
+        color: #385185;
+        float: right;
+        padding-right: 84px;
+        padding-top: 24px;
+        font-weight: bolder;
+      }
+
+      #fb,
+      #fb_image:hover {
+        cursor: pointer;
+      }
+
+      #forgot {
+        float: right;
+        color: #385185;
+        margin-top: 17px;
+        margin-right: 113px;
+      }
+
+      .signup {
+        float: right;
+        margin-top: 15px;
+        margin-right: 335px;
+        border: 1px solid lightblue;
+        width: 328px;
+        height: 63px;
+      }
+
+      .signup p {
+        text-align: center;
+      }
+
+      .signup span {
+        color: #0e45bb;
+      }
+
+      .foot span {
+        margin-top: 16px;
+        margin-right: 472px;
+        float: right;
+      }
+      .foot img {
+        margin-top: 12px;
+        width: 154px;
+        margin-left: 11px;
+      }
+
+      #playstore {
+        width: 154px;
+      }
+
+      .footer li {
+        display: inline-block;
+        margin-top: 41px;
+        padding-left: 18px;
+        color: rgba(var(--f52,142,142,142),1);
+      }
+
+      .footer ul{
+        margin-left: 256px;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="phone_image">
+        <img src="/images/ss.png" alt="" />
+      </div>
+
+      <div class="content">
+        <img src="/images/content.jpg" alt="" />
+      </div>
+
+      <div class="login">
+        <img src="/images/insta_hand.png" alt="" />
+        <input
+          type="text"
+          name="text"
+          placeholder="Phone number, username or email"
+          id="text"
+        />
+        <input type="password" name="text2" placeholder="password" id="text2" />
+        <button>Log In</button>
+
+        <hr />
+
+        <img src="/images/fb.png" alt="" id="fb_image" />
+        <span id="fb">Log In with Facebook</span>
+        <!-- <hr> -->
+        <span id="forgot">Forgot password?</span>
+      </div>
+      <div class="signup">
+        <p>Don't have an account? <span>Sign up</span></p>
+      </div>
+
+      <div class="foot">
+        <span>Get the app.</span>
+        <img src="/images/appstore.png" alt="" />
+        <img src="/images/playstore.png" id="playstore" alt="" />
+      </div>
+
+      <div class="footer">
+        <ul>
+          <li>About</li>
+          <li>Blog</li>
+          <li>Jobs</li>
+          <li>Help</li>
+          <li>API</li>
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Top Accounts</li>
+          <li>Hashtags</li>
+          <li>Locations</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
